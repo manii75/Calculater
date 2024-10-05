@@ -14,6 +14,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     padding: 20px;
+    width: 300px;
 }
 
 .in {
@@ -27,9 +28,14 @@ body {
     margin-bottom: 10px;
     color: white;
 }
+.main{
+    display: flex;
+    flex-wrap: wrap;
 
+}
 .butn2 {
-    width: 70px;
+    flex-grow: 1;
+    min-width: 60px;
     height: 70px;
     font-size: 24px;
     border: none;
@@ -48,3 +54,5 @@ body {
 .butn2:active {
     background-color: #004494;
 }
+
+/* style.css */
